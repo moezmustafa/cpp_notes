@@ -25,7 +25,7 @@ for (int i = 0; i < 5; i++)
     cout << arr1[i] << " ";
 }
 
-cout << " Array 2 is : ";
+cout << " \n\n Array 2 is : ";
 for (int i=0; i < 5; i++){
     cout << arr2[i] << " ";
 }
@@ -33,8 +33,8 @@ for (int i=0; i < 5; i++){
     for(int i=0 ; i<5 ; i++){
         arr3[i] = arr1[i] + arr2[i];
     }
-cout << " \n The sum of the Array 1 and Array 2 : " << endl;
+cout << " \n \n The sum of the Array 1 and Array 2 : " << endl;
     for(int i=0 ; i<5 ; i++){
-        cout << arr3[i] << endl;
+        cout << arr3[i] << " ";
     }
 }

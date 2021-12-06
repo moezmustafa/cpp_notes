@@ -13,7 +13,7 @@ int main()
         cin>>arr1[i];
     }
 
-    cout << " The array is : " ;
+    cout << " \n\n The array is : " ;
     for(int i =0 ; i<10; i++)
     {
         cout<<arr1[i]<<" ";
@@ -29,7 +29,7 @@ int main()
 average = sum_all / total;
 
 cout << " Total : " << total << endl;
-cout << " \n\n Average is : " << average; 
+cout << " \n Average is : " << average; 
 
 cout << endl; 
 

@@ -4,11 +4,11 @@
 using namespace std;
 int main()
 {
-    int a ;
+    // int a ;
 
-    cin >> a ;
+    // cin >> a ;
 
-    cout << char(a);
+    // cout << char(a);
 
 
 for (int i ; i<=90 && i>=65 ; i++)

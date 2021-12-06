@@ -4,7 +4,7 @@ void question_1()
 
 	while(start<=end)
 	{
-		cout << start <<endl;
+		cout << start << endl;
 		start++;
 	} 
 

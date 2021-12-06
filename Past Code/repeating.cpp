@@ -12,6 +12,8 @@ int main()
     {
         cin>>a[i];
     }
+
+    //check for non-repeating elements
     for(i=0;i<n;i++)
     {
         for(j=i+1;j<n;j++)

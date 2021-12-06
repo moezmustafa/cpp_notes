@@ -12,7 +12,7 @@ int main()
     cout << "Enter a number : " ;
     cin >> number ;
 
-  og_number = number ;
+  og_number = number ;q
     cout << "The number you entered is : " << number << endl; 
 
     for ( ; number > 0 ;)
