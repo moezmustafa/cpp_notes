@@ -1,81 +1,41 @@
-#include<iostream>
-#include<iomanip>
+//array of size 20 
+//number less than 100 but greater than 10 
+//no number should repeat 
 
+#include <iostream>
 using namespace std;
 int main()
 {
-	cout << " \n\n You are about to enter the values " << endl;
-
-	int arr[20];
-
-	int number = 0;
-	for (int i = 0; i < 20; )
-	{
-		cout << " Enter a number for the index : " << i << " of the array :";
-		cin >> number;
-
-		if (number > 10 && number < 100)
-		{
-			arr[i] = number;
-
-			i++;
-		}
-        else if (number < 10)
+    int a[20];
+    int number ;
+    
+    for(int i=0;i<20;i++)
+    {
+        cout << " Enter number " << i+1 << " : ";
+        cin >> number;
+        a[i]=number;
+        if(a[i]>10 && a[i]<100)
         {
-            cout << " The number is less than 10 : : : : " << endl;
+            for(int j=0;j<i;j++)
+            {
+                if(a[i]==a[j]&& number>10&&number<100)
+                {
+                     cout<<"\nNumber already exist";
+                    break;
+                    cout << " Number is repeated " << endl;
+                    break;
+                }
+                
+            }
         }
+        
+        
+    }
 
-        //duplicate 
-
-	}
-
-	cout << " \n\n Your array with 20 digits is : " << endl;
-
-	for (int i = 0; i < 20; i++)
-	{
-		cout << arr[i] << setw(3);
-
-	
-
-
-	}
-
-	cout << endl;
-	cout << endl;
-	cout << endl;
-	cout << endl;
-
+     //display array 
+     for(int i =0  ; i<20 ; i++)
+     {
+         cout<<"\n"<<a[i];
+     }
+        return 0;
 }
-
-
-
-
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-// 	int arr[20];
-// 	int num;
-// 	int counter;
-
-
-// 	for (int i = 0; i < 20; i++)
-// 	{
-// 		counter = i;
-// 		cout << " Enter the value of index (" << i << ") of the array :";
-// 		cin >> num;
-
-		
-// 			for (int j = i; j == 0; j--)
-// 			{
-
-// 				if (num > 10 && num < 100 && num != arr[counter-j])
-// 				{
-// 					arr[i] = num;
-// 				}
-
-// 			}
-
-		
-// 	}
-// }
