@@ -11,6 +11,7 @@ using namespace std;
 static const char alphabets[] = "abcdefghijklmnopqrstuvwxyz" ;
 string random_line = "";
 string random_word = "";
+char reverse_line[40] ;
 
 int size_alphabets = sizeof(alphabets) - 1;
 
@@ -61,7 +62,7 @@ void print_random_text_line(){
 }
 
 
-//splitting the random text line into words using strtok
+//splitting the random text line into words using strtok save it in reverse_line
 void split_random_text_line(){
     char *token;
     char *str = new char[random_line.length() + 1];
@@ -69,11 +70,25 @@ void split_random_text_line(){
     token = strtok(str, " ");
     while (token != NULL)
     {
+        int i ;
         cout << token << endl;
+        token += reverse_line[i];
         token = strtok(NULL, " ");
+        i++ ;
+
     }
 }
 
+
+
+// print reverse line array
+void print_reverse_line(){
+    
+    for (int i = 0; i < sizeof(reverse_line); i++)
+    {
+        cout << reverse_line[i] << endl;
+    }
+}
 
 
 
@@ -99,6 +114,7 @@ int main()
 
 
     split_random_text_line();
+    print_reverse_line();
 
    
     return 0;
