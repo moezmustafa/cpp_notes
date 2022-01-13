@@ -12,6 +12,20 @@ typedef struct user {
     string password ; 
 }us;
 
+
+//struxt with a fuction 
+
+
+typedef struct function {
+
+    int moeez ;
+    
+    void print() {
+        cout << "Moeez : " << moeez << endl ;
+    }
+} fu;
+
+
 int main()
 {
 
@@ -54,7 +68,21 @@ cout << endl;
 
 
 
+
+//struct with a function 
+
+fu power ; 
+   something.moeez = 10 ; 
+
+
+
+  struct moeez ;
+  print() ;
     return 0 ;
 
+
+}
+
+void shit ( user , user ) {
 
 }
