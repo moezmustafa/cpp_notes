@@ -17,6 +17,8 @@ stu arry[10];
 int main()
 {
 	
+    system("color 1B") ;
+    
 	for (int i = 0; i < 10; i++)
 	{
         cout << "Enter the value of roll : ";

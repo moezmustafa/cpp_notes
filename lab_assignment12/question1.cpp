@@ -46,6 +46,8 @@ int main()
 {
 
 
+    system("color 1B") ;
+
 	getinput(p1, p2);  //maine aik dafa call kia hai
 
 
