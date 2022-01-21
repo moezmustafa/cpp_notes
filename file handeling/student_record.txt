@@ -1,0 +1,15 @@
+1 moeez mustafa 
+2 +87123123
+3 computer science 
+4 bahria university 
+5 moeez@someone.com
+1 imran khan
+2 +91123123213
+3 economics 
+4 oxford 
+5 imran#someone.com
+1 malala yousuf 
+2 +4412312333
+3 communicaition studies 
+4 oxford 
+5 malala@someone.com
