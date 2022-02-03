@@ -2,7 +2,9 @@
 #include<fstream> 
 #include<string> 
 
-using namespace std ; 
+using namespace std ;
+    string text_line ; 
+
 
 void seprator(char a )
 {
@@ -25,7 +27,6 @@ void student_name_seprator( )
     file.open("student_record.txt" , ios::in) ; 
 
     string names ; 
-    string text_line ; 
     int phone ; 
     string department ;
     string university ; 
@@ -33,7 +34,7 @@ void student_name_seprator( )
 
     //seprate the line starting with the number 1
    
-seerator('1') ;
+seprator('1') ;
 seprator('2') ;
 seprator('3') ;
 seprator('4') ;
