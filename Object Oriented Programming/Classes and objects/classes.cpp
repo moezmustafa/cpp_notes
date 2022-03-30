@@ -1,5 +1,7 @@
 #include<iostream>
-using namespace std ;
+using std::string;
+using namespace std;
+
 
 
 //what are classes ? they are the user defined data types or stencils that can be used to create objects
@@ -12,8 +14,14 @@ using namespace std ;
 //what are friends ? they are the functions that are part of the class but are not part of the object
 //what are friend functions ? they are the functions that are part of the class but are not part of the object 
 //what are friend classes ? they are the classes that are part of the class but are not part of the object      
-
+class User{
+    string name ;
+    string company;
+    int age;
+};
 int main()
 {
+    User moeez;
+    moeez.
     cout << "moeez mustafa" << endl;
 }
